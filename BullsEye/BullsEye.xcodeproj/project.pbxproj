@@ -300,6 +300,7 @@
 				62DA113217971A7C008E32CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

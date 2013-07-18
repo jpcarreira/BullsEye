@@ -39,5 +39,11 @@
     [alertView show];
 }
 
+// added this method (deprecated in iOS 6)
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+    NSLog(@"hello");
+    return UIInterfaceOrientationIsLandscape(toInterfaceOrientation);
+}
 
 @end
