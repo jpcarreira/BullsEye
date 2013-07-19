@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+// slider as an outlet
+@property (nonatomic, strong) IBOutlet UISlider *slider;
+
+// connected to "touch up inside"
 -(IBAction) showAlert;
+
+// connected to slider's "valueChanged"
+-(IBAction) sliderMoved: (UISlider *) sender;
 
 @end
