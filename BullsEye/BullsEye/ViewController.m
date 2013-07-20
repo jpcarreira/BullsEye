@@ -14,18 +14,40 @@
 
 @implementation ViewController
 
+// synthesize = instance variables
 @synthesize slider;
 
-// instance variable to store the value of the slider
+// instance variable to store the value of the slider;
 int currentValue;
+
+// random number
+int targetValue;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
+    // commenting out with the addition of startNewRound
+    /*
 	// this fixes the bug of having 0 in currentValue when the user doesn't move the slider and presses 'Hit Me'
     // we're initializing currentValue to slider's current value
     currentValue = lroundf([self.slider value]);
+    */
+    
+    [self startNewRound];
+    
+}
+
+- (void) startNewRound
+{
+    // targetValue is the random number showed in the screen
+    targetValue = 1 + (arc4random() % 100);
+    
+    //currentValue = 50;
+    // uncomment below so we can have the current slider position instead of always starting at 50
+    currentValue = lroundf([self.slider value]);
+    
+    [self slider].value = currentValue;
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,7 +59,7 @@ int currentValue;
 // shows alert when player hit's "Hit Me!" button
 - (IBAction)showAlert
 {
-    NSString *value = [NSString stringWithFormat: @"The value of the slider is %i", currentValue];
+    NSString *value = [NSString stringWithFormat: @"The value of the slider is %i\nThe target value is %i", currentValue, targetValue];
     UIAlertView *alertView = [[UIAlertView alloc]
                               initWithTitle: @"Hello, World"
                                     message: value
@@ -45,6 +67,9 @@ int currentValue;
                               cancelButtonTitle: @"OK"
                               otherButtonTitles: nil];
     [alertView show];
+    
+    // starting a new round
+    [self startNewRound];
 }
 
 // added this method (deprecated in iOS 6)
