@@ -15,13 +15,11 @@
 @implementation ViewController
 
 // synthesize = instance variables
-@synthesize slider;
+@synthesize slider, targetLabel, scoreLabel, roundLabel;
 
-// instance variable to store the value of the slider;
-int currentValue;
+// instance variable to store the value of the slider, current value and score;
+int currentValue, targetValue, score, roundNumber;
 
-// random number
-int targetValue;
 
 - (void)viewDidLoad
 {
@@ -35,11 +33,24 @@ int targetValue;
     */
     
     [self startNewRound];
-    
+    [self updateLabels];
 }
 
+
+// updates labels
+-(void) updateLabels
+{
+    [self targetLabel].text = [NSString stringWithFormat: @"%i", targetValue];
+    [self scoreLabel].text = [NSString stringWithFormat: @"%i", score];
+    [self roundLabel].text = [NSString stringWithFormat: @"%i", roundNumber];
+}
+
+// method to start a new round in the game
 - (void) startNewRound
 {
+    // incremeting round
+    roundNumber++;
+    
     // targetValue is the random number showed in the screen
     targetValue = 1 + (arc4random() % 100);
     
@@ -59,10 +70,14 @@ int targetValue;
 // shows alert when player hit's "Hit Me!" button
 - (IBAction)showAlert
 {
-    NSString *value = [NSString stringWithFormat: @"The value of the slider is %i\nThe target value is %i", currentValue, targetValue];
+    int difference = abs(targetValue - currentValue);
+    // points awarded to player
+    int points = 100 - difference;
+    score += points;
+    NSString *pointsMsg = [NSString stringWithFormat: @"You scored %i points!", points];
     UIAlertView *alertView = [[UIAlertView alloc]
                               initWithTitle: @"Hello, World"
-                                    message: value
+                                    message: pointsMsg
                                     delegate: nil
                               cancelButtonTitle: @"OK"
                               otherButtonTitles: nil];
@@ -70,6 +85,7 @@ int targetValue;
     
     // starting a new round
     [self startNewRound];
+    [self updateLabels];
 }
 
 // added this method (deprecated in iOS 6)

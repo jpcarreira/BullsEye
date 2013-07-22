@@ -13,6 +13,15 @@
 // slider as an outlet
 @property (nonatomic, strong) IBOutlet UISlider *slider;
 
+// label that displays target value
+@property (nonatomic, strong) IBOutlet UILabel *targetLabel;
+
+// label that displays score value
+@property (nonatomic, strong) IBOutlet UILabel *scoreLabel;
+
+// label that displays round number
+@property (nonatomic, strong) IBOutlet UILabel *roundLabel;
+
 // connected to "touch up inside"
 -(IBAction) showAlert;
 
