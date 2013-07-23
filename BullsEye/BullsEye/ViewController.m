@@ -74,9 +74,29 @@ int currentValue, targetValue, score, roundNumber;
     // points awarded to player
     int points = 100 - difference;
     score += points;
+    
     NSString *pointsMsg = [NSString stringWithFormat: @"You scored %i points!", points];
+    
+    NSString *alertTitle = [[NSString alloc] init];
+    
+    if(difference == 0)
+    {
+        alertTitle = @"Perfect!";
+    }
+    else if(difference < 5)
+    {
+        alertTitle = @"You almost had it!";
+    }
+    else if(difference < 10)
+    {
+        alertTitle = @"Not bad!";
+    }
+    else{
+        alertTitle = @"Not even close ...";
+    }
+    
     UIAlertView *alertView = [[UIAlertView alloc]
-                              initWithTitle: @"Hello, World"
+                              initWithTitle: alertTitle
                                     message: pointsMsg
                                     delegate: nil
                               cancelButtonTitle: @"OK"
