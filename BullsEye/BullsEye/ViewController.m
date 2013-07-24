@@ -105,15 +105,16 @@ int currentValue, targetValue, score, roundNumber;
     
     UIAlertView *alertView = [[UIAlertView alloc]
                               initWithTitle: alertTitle
-                                    message: pointsMsg
-                                    delegate: nil
+                              message: pointsMsg
+                              // setting ViewController as AlertView's delegate
+                              delegate: self
                               cancelButtonTitle: @"OK"
                               otherButtonTitles: nil];
     [alertView show];
     
-    // starting a new round
-    [self startNewRound];
-    [self updateLabels];
+    // starting a new round (this will be commented out to allow new round only when AlertView button is pressed) 
+    //[self startNewRound];
+    //[self updateLabels];
 }
 
 // added this method (deprecated in iOS 6)
@@ -128,4 +129,12 @@ int currentValue, targetValue, score, roundNumber;
     currentValue = lroundf([sender value]);
     //NSLog(@"The value of the slider is %i", currentValue);
 }
+
+// starting new round and updating labels only when dismiss button is pressed
+-(void) alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    [self startNewRound];
+    [self updateLabels];
+}
+
 @end
