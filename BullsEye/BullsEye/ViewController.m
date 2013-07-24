@@ -32,7 +32,7 @@ int currentValue, targetValue, score, roundNumber;
     currentValue = lroundf([self.slider value]);
     */
     
-    [self startNewRound];
+    [self startNewGame];
     [self updateLabels];
 }
 
@@ -128,6 +128,20 @@ int currentValue, targetValue, score, roundNumber;
     // assigns slider value to current value
     currentValue = lroundf([sender value]);
     //NSLog(@"The value of the slider is %i", currentValue);
+}
+
+// starting over
+-(IBAction) startOver
+{
+    [self startNewGame];
+    [self updateLabels];
+}
+
+-(void) startNewGame
+{
+    score = 0;
+    roundNumber = 0;
+    [self startNewRound];
 }
 
 // starting new round and updating labels only when dismiss button is pressed

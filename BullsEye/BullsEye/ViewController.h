@@ -28,4 +28,7 @@
 // connected to slider's "valueChanged"
 -(IBAction) sliderMoved: (UISlider *) sender;
 
+// start over option
+-(IBAction) startOver;
+
 @end
