@@ -82,10 +82,18 @@ int currentValue, targetValue, score, roundNumber;
     if(difference == 0)
     {
         alertTitle = @"Perfect!";
+        
+        // awarding extra 100 pts
+        score += 100;
     }
     else if(difference < 5)
     {
         alertTitle = @"You almost had it!";
+        if(difference == 1)
+        {
+            // awarding extra 50 pts
+            score += 50;
+        }
     }
     else if(difference < 10)
     {
