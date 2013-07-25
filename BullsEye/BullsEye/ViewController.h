@@ -31,4 +31,7 @@
 // start over option
 -(IBAction) startOver;
 
+// go to info screen
+-(IBAction) showInfo;
+
 @end

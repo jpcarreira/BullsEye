@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AboutViewController.h"
 
 @interface ViewController ()
 
@@ -149,6 +150,18 @@ int currentValue, targetValue, score, roundNumber;
 {
     [self startNewRound];
     [self updateLabels];
+}
+
+-(void) showInfo
+{
+    // creating a new AboutViewController object
+    AboutViewController *about = [[AboutViewController alloc] initWithNibName:@"AboutViewController" bundle:nil];
+    
+    // setting up the transition style
+    about.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    
+    // showing it on the screen
+    [self presentViewController:about animated:YES completion:nil];
 }
 
 @end

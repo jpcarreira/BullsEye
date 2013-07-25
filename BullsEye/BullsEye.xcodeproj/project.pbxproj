@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62B4E0F717A121D80027D664 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B4E0F517A121D80027D664 /* AboutViewController.m */; };
+		62B4E0F817A121D80027D664 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B4E0F617A121D80027D664 /* AboutViewController.xib */; };
 		62DA111117971A7C008E32CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111017971A7C008E32CF /* UIKit.framework */; };
 		62DA111317971A7C008E32CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111217971A7C008E32CF /* Foundation.framework */; };
 		62DA111517971A7C008E32CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111417971A7C008E32CF /* CoreGraphics.framework */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62B4E0F417A121D80027D664 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		62B4E0F517A121D80027D664 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		62B4E0F617A121D80027D664 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		62DA110D17971A7C008E32CF /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DA111017971A7C008E32CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62DA111217971A7C008E32CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +94,9 @@
 				62DA112917971A7C008E32CF /* ViewController.m */,
 				62DA112B17971A7C008E32CF /* ViewController.xib */,
 				62DA111717971A7C008E32CF /* Supporting Files */,
+				62B4E0F417A121D80027D664 /* AboutViewController.h */,
+				62B4E0F517A121D80027D664 /* AboutViewController.m */,
+				62B4E0F617A121D80027D664 /* AboutViewController.xib */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				62DA112517971A7C008E32CF /* Default@2x.png in Resources */,
 				62DA112717971A7C008E32CF /* Default-568h@2x.png in Resources */,
 				62DA112D17971A7C008E32CF /* ViewController.xib in Resources */,
+				62B4E0F817A121D80027D664 /* AboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				62DA111D17971A7C008E32CF /* main.m in Sources */,
 				62DA112117971A7C008E32CF /* AppDelegate.m in Sources */,
 				62DA112A17971A7C008E32CF /* ViewController.m in Sources */,
+				62B4E0F717A121D80027D664 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
