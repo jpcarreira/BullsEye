@@ -36,7 +36,7 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUIButton" id="1008803041">
+					<object class="IBUIButton" id="901180148">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{252, 216}, {65, 44}}</string>
@@ -71,13 +71,13 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUITextView" id="1001991434">
+					<object class="IBUITextView" id="850846487">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{53, 33}, {463, 156}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1008803041"/>
+						<reference key="NSNextKeyView" ref="901180148"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">1</int>
@@ -104,10 +104,10 @@ aGUgY2xvc2UgeW91IGdldCwgdGhlIG1vcmUgcG9pbnRzIHlvdSdyZSBhd2FyZGVkIQoKRW5qb3khCg</
 						</object>
 					</object>
 				</array>
-				<string key="NSFrame">{{0, 20}, {568, 300}}</string>
+				<string key="NSFrameSize">{568, 320}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="1001991434"/>
+				<reference key="NSNextKeyView" ref="850846487"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -115,7 +115,6 @@ aGUgY2xvc2UgeW91IGdldCwgdGhlIG1vcmUgcG9pbnRzIHlvdSdyZSBhd2FyZGVkIQoKRW5qb3khCg</
 						<int key="NSID">2</int>
 					</object>
 				</object>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 					<int key="IBUIInterfaceOrientation">3</int>
 					<int key="interfaceOrientation">3</int>
@@ -153,7 +152,7 @@ aGUgY2xvc2UgeW91IGdldCwgdGhlIG1vcmUgcG9pbnRzIHlvdSdyZSBhd2FyZGVkIQoKRW5qb3khCg</
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">close</string>
-						<reference key="source" ref="1008803041"/>
+						<reference key="source" ref="901180148"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -172,8 +171,8 @@ aGUgY2xvc2UgeW91IGdldCwgdGhlIG1vcmUgcG9pbnRzIHlvdSdyZSBhd2FyZGVkIQoKRW5qb3khCg</
 						<int key="objectID">1</int>
 						<reference key="object" ref="191373211"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="1008803041"/>
-							<reference ref="1001991434"/>
+							<reference ref="901180148"/>
+							<reference ref="850846487"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -190,12 +189,12 @@ aGUgY2xvc2UgeW91IGdldCwgdGhlIG1vcmUgcG9pbnRzIHlvdSdyZSBhd2FyZGVkIQoKRW5qb3khCg</
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="1008803041"/>
+						<reference key="object" ref="901180148"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">5</int>
-						<reference key="object" ref="1001991434"/>
+						<reference key="object" ref="850846487"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</array>
