@@ -50,8 +50,6 @@ int currentValue, targetValue, score, roundNumber;
     UIImage *trackRightImage = [[UIImage imageNamed:@"SliderTrackRight"] stretchableImageWithLeftCapWidth: 14 topCapHeight: 0];
     [self.slider setMaximumTrackImage: trackRightImage forState: UIControlStateNormal];
     
-    
-    
     [self startNewGame];
     [self updateLabels];
 }

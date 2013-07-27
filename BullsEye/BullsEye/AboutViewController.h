@@ -12,4 +12,6 @@
 
 -(IBAction)close;
 
+@property (nonatomic, strong) IBOutlet UIWebView *webview;
+
 @end

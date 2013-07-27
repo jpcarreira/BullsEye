@@ -18,6 +18,7 @@
 		62B4E10917A1317E0027D664 /* SliderTrackRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B4E10017A1317E0027D664 /* SliderTrackRight.png */; };
 		62B4E10A17A1317E0027D664 /* StartOverButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B4E10117A1317E0027D664 /* StartOverButton.png */; };
 		62B4E10B17A1317E0027D664 /* StartOverIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B4E10217A1317E0027D664 /* StartOverIcon.png */; };
+		62CE24A417A40558000F085D /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24A317A40558000F085D /* BullsEye.html */; };
 		62DA111117971A7C008E32CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111017971A7C008E32CF /* UIKit.framework */; };
 		62DA111317971A7C008E32CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111217971A7C008E32CF /* Foundation.framework */; };
 		62DA111517971A7C008E32CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111417971A7C008E32CF /* CoreGraphics.framework */; };
@@ -44,6 +45,7 @@
 		62B4E10017A1317E0027D664 /* SliderTrackRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackRight.png; sourceTree = "<group>"; };
 		62B4E10117A1317E0027D664 /* StartOverButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverButton.png; sourceTree = "<group>"; };
 		62B4E10217A1317E0027D664 /* StartOverIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverIcon.png; sourceTree = "<group>"; };
+		62CE24A317A40558000F085D /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		62DA110D17971A7C008E32CF /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DA111017971A7C008E32CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62DA111217971A7C008E32CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,16 +124,17 @@
 		62DA111617971A7C008E32CF /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
-				62B4E0F917A1317E0027D664 /* Images */,
-				62DA111F17971A7C008E32CF /* AppDelegate.h */,
-				62DA112017971A7C008E32CF /* AppDelegate.m */,
-				62DA112817971A7C008E32CF /* ViewController.h */,
-				62DA112917971A7C008E32CF /* ViewController.m */,
-				62DA112B17971A7C008E32CF /* ViewController.xib */,
-				62DA111717971A7C008E32CF /* Supporting Files */,
+				62CE24A317A40558000F085D /* BullsEye.html */,
 				62B4E0F417A121D80027D664 /* AboutViewController.h */,
+				62DA111F17971A7C008E32CF /* AppDelegate.h */,
+				62DA112817971A7C008E32CF /* ViewController.h */,
 				62B4E0F517A121D80027D664 /* AboutViewController.m */,
+				62DA112017971A7C008E32CF /* AppDelegate.m */,
+				62DA112917971A7C008E32CF /* ViewController.m */,
 				62B4E0F617A121D80027D664 /* AboutViewController.xib */,
+				62B4E0F917A1317E0027D664 /* Images */,
+				62DA111717971A7C008E32CF /* Supporting Files */,
+				62DA112B17971A7C008E32CF /* ViewController.xib */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				62B4E10917A1317E0027D664 /* SliderTrackRight.png in Resources */,
 				62B4E10A17A1317E0027D664 /* StartOverButton.png in Resources */,
 				62B4E10B17A1317E0027D664 /* StartOverIcon.png in Resources */,
+				62CE24A417A40558000F085D /* BullsEye.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,8 @@
 
 @implementation AboutViewController
 
+@synthesize webview;
+
 // added this method (deprecated in iOS 6)
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
 {
@@ -32,7 +34,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    // loading the html5 document
+    NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@"BullsEye" ofType:@"html"];
+    NSData *htmlData = [NSData dataWithContentsOfFile: htmlFile];
+    NSURL *baseURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]];
+    [self.webview loadData: htmlData MIMEType:@"text/html" textEncodingName:@"UTF" baseURL:baseURL];
 }
 
 - (void)didReceiveMemoryWarning
