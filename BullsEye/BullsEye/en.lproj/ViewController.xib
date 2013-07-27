@@ -56,36 +56,54 @@
 					<object class="IBUIButton" id="214343616">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{203, 114}, {74, 44}}</string>
+						<string key="NSFrame">{{190, 117.5}, {100, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="73357032"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<object class="NSColor" key="IBUIBackgroundColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MSAxIDEgMC41AA</bytes>
+						</object>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
+						<string key="IBUITitleShadowOffset">{0, 1}</string>
 						<string key="IBUINormalTitle">Hit Me!</string>
-						<object class="NSColor" key="IBUIHighlightedTitleColor" id="337821715">
+						<object class="NSColor" key="IBUIHighlightedTitleColor">
 							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MQA</bytes>
+							<bytes key="NSWhite">MCAwAA</bytes>
 						</object>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+							<bytes key="NSRGB">MC4zNzY0NzA1ODgyIDAuMTE3NjQ3MDU4OCAwAA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleShadowColor" id="449669342">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MC41AA</bytes>
+						<object class="NSColor" key="IBUIHighlightedTitleShadowColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4zNzY0NzA1ODgyIDAuMTE3NjQ3MDU4OCAwIDAuNQA</bytes>
 						</object>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="520606352">
-							<int key="type">2</int>
-							<double key="pointSize">15</double>
+						<object class="NSColor" key="IBUINormalTitleShadowColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MSAxIDEAA</bytes>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="925544511">
-							<string key="NSName">Helvetica-Bold</string>
-							<double key="NSSize">15</double>
+						<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">Button-Highlighted.png</string>
+						</object>
+						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">Button-Normal.png</string>
+						</object>
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="50103476">
+							<string key="name">ArialRoundedMTBold</string>
+							<string key="family">Arial Rounded MT Bold</string>
+							<int key="traits">0</int>
+							<double key="pointSize">20</double>
+						</object>
+						<object class="NSFont" key="IBUIFont" id="885885882">
+							<string key="NSName">ArialRoundedMTBold</string>
+							<double key="NSSize">20</double>
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
@@ -146,23 +164,14 @@
 						<string key="IBUIText">100</string>
 						<reference key="IBUITextColor" ref="569392903"/>
 						<nil key="IBUIHighlightedColor"/>
-						<object class="NSColor" key="IBUIShadowColor" id="628768660">
+						<object class="NSColor" key="IBUIShadowColor" id="640211085">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
 						</object>
 						<string key="IBUIShadowOffset">{0, 1}</string>
 						<int key="IBUIBaselineAdjustment">0</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="655214100">
-							<string key="name">ArialRoundedMTBold</string>
-							<string key="family">Arial Rounded MT Bold</string>
-							<int key="traits">0</int>
-							<double key="pointSize">20</double>
-						</object>
-						<object class="NSFont" key="IBUIFont" id="941894793">
-							<string key="NSName">ArialRoundedMTBold</string>
-							<double key="NSSize">20</double>
-							<int key="NSfFlags">16</int>
-						</object>
+						<reference key="IBUIFontDescription" ref="50103476"/>
+						<reference key="IBUIFont" ref="885885882"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 					</object>
 					<object class="IBUILabel" id="870441072">
@@ -187,13 +196,13 @@
 						</object>
 						<string key="IBUIShadowOffset">{0, 1}</string>
 						<int key="IBUIBaselineAdjustment">0</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="543340671">
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="478650856">
 							<string key="name">ArialRoundedMTBold</string>
 							<string key="family">Arial Rounded MT Bold</string>
 							<int key="traits">0</int>
 							<double key="pointSize">14</double>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="392800093">
+						<object class="NSFont" key="IBUIFont" id="565720629">
 							<string key="NSName">ArialRoundedMTBold</string>
 							<double key="NSSize">14</double>
 							<int key="NSfFlags">16</int>
@@ -221,8 +230,8 @@
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
 						</object>
 						<int key="IBUIBaselineAdjustment">0</int>
-						<reference key="IBUIFontDescription" ref="543340671"/>
-						<reference key="IBUIFont" ref="392800093"/>
+						<reference key="IBUIFontDescription" ref="478650856"/>
+						<reference key="IBUIFont" ref="565720629"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 					</object>
 					<object class="IBUISlider" id="325672456">
@@ -244,7 +253,7 @@
 					<object class="IBUIButton" id="73357032">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{15, 242}, {85, 33}}</string>
+						<string key="NSFrame">{{42, 243}, {32, 32}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="943458737"/>
@@ -253,16 +262,35 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Start Over</string>
-						<reference key="IBUIHighlightedTitleColor" ref="337821715"/>
+						<object class="NSColor" key="IBUIHighlightedTitleColor" id="337821715">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MQA</bytes>
+						</object>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="449669342"/>
-						<reference key="IBUIFontDescription" ref="520606352"/>
-						<reference key="IBUIFont" ref="925544511"/>
+						<object class="NSColor" key="IBUINormalTitleShadowColor" id="449669342">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MC41AA</bytes>
+						</object>
+						<object class="NSCustomResource" key="IBUINormalImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">StartOverIcon.png</string>
+						</object>
+						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">StartOverButton.png</string>
+						</object>
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="520606352">
+							<int key="type">2</int>
+							<double key="pointSize">15</double>
+						</object>
+						<object class="NSFont" key="IBUIFont" id="459766306">
+							<string key="NSName">Helvetica-Bold</string>
+							<double key="NSSize">15</double>
+							<int key="NSfFlags">16</int>
+						</object>
 					</object>
 					<object class="IBUILabel" id="491756017">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -280,11 +308,11 @@
 						<string key="IBUIText">99999</string>
 						<reference key="IBUITextColor" ref="569392903"/>
 						<nil key="IBUIHighlightedColor"/>
-						<reference key="IBUIShadowColor" ref="628768660"/>
+						<reference key="IBUIShadowColor" ref="640211085"/>
 						<string key="IBUIShadowOffset">{0, 1}</string>
 						<int key="IBUIBaselineAdjustment">0</int>
-						<reference key="IBUIFontDescription" ref="655214100"/>
-						<reference key="IBUIFont" ref="941894793"/>
+						<reference key="IBUIFontDescription" ref="50103476"/>
+						<reference key="IBUIFont" ref="885885882"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 					</object>
 					<object class="IBUILabel" id="843990354">
@@ -303,11 +331,11 @@
 						<string key="IBUIText">999</string>
 						<reference key="IBUITextColor" ref="569392903"/>
 						<nil key="IBUIHighlightedColor"/>
-						<reference key="IBUIShadowColor" ref="628768660"/>
+						<reference key="IBUIShadowColor" ref="640211085"/>
 						<string key="IBUIShadowOffset">{0, 1}</string>
 						<int key="IBUIBaselineAdjustment">0</int>
-						<reference key="IBUIFontDescription" ref="655214100"/>
-						<reference key="IBUIFont" ref="941894793"/>
+						<reference key="IBUIFontDescription" ref="50103476"/>
+						<reference key="IBUIFont" ref="885885882"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 					</object>
 					<object class="IBUIButton" id="957005915">
@@ -331,7 +359,7 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="449669342"/>
 						<reference key="IBUIFontDescription" ref="520606352"/>
-						<reference key="IBUIFont" ref="925544511"/>
+						<reference key="IBUIFont" ref="459766306"/>
 					</object>
 					<object class="IBUILabel" id="943458737">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -512,7 +540,6 @@
 							<reference ref="369933837"/>
 							<reference ref="870441072"/>
 							<reference ref="325672456"/>
-							<reference ref="73357032"/>
 							<reference ref="843990354"/>
 							<reference ref="957005915"/>
 							<reference ref="909048492"/>
@@ -520,6 +547,7 @@
 							<reference ref="943458737"/>
 							<reference ref="907267452"/>
 							<reference ref="491756017"/>
+							<reference ref="73357032"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -609,6 +637,7 @@
 				<string key="31.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="8.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="0.0" key="8.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
@@ -680,10 +709,13 @@
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">Background.png</string>
-			<string key="NS.object.0">{480, 320}</string>
-		</object>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="Background.png">{480, 320}</string>
+			<string key="Button-Highlighted.png">{100, 37}</string>
+			<string key="Button-Normal.png">{100, 37}</string>
+			<string key="StartOverButton.png">{32, 32}</string>
+			<string key="StartOverIcon.png">{19, 20}</string>
+		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
 	</data>
 </archive>
