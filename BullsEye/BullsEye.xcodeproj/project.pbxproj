@@ -19,6 +19,15 @@
 		62B4E10A17A1317E0027D664 /* StartOverButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B4E10117A1317E0027D664 /* StartOverButton.png */; };
 		62B4E10B17A1317E0027D664 /* StartOverIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B4E10217A1317E0027D664 /* StartOverIcon.png */; };
 		62CE24A417A40558000F085D /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24A317A40558000F085D /* BullsEye.html */; };
+		62CE24AF17A40903000F085D /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24A617A40903000F085D /* Background@2x.png */; };
+		62CE24B017A40903000F085D /* Button-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24A717A40903000F085D /* Button-Highlighted@2x.png */; };
+		62CE24B117A40903000F085D /* Button-Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24A817A40903000F085D /* Button-Normal@2x.png */; };
+		62CE24B217A40903000F085D /* SliderThumb-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24A917A40903000F085D /* SliderThumb-Highlighted@2x.png */; };
+		62CE24B317A40903000F085D /* SliderThumb-Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24AA17A40903000F085D /* SliderThumb-Normal@2x.png */; };
+		62CE24B417A40903000F085D /* SliderTrackLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24AB17A40903000F085D /* SliderTrackLeft@2x.png */; };
+		62CE24B517A40903000F085D /* SliderTrackRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24AC17A40903000F085D /* SliderTrackRight@2x.png */; };
+		62CE24B617A40903000F085D /* StartOverButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24AD17A40903000F085D /* StartOverButton@2x.png */; };
+		62CE24B717A40903000F085D /* StartOverIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24AE17A40903000F085D /* StartOverIcon@2x.png */; };
 		62DA111117971A7C008E32CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111017971A7C008E32CF /* UIKit.framework */; };
 		62DA111317971A7C008E32CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111217971A7C008E32CF /* Foundation.framework */; };
 		62DA111517971A7C008E32CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111417971A7C008E32CF /* CoreGraphics.framework */; };
@@ -46,6 +55,15 @@
 		62B4E10117A1317E0027D664 /* StartOverButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverButton.png; sourceTree = "<group>"; };
 		62B4E10217A1317E0027D664 /* StartOverIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverIcon.png; sourceTree = "<group>"; };
 		62CE24A317A40558000F085D /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		62CE24A617A40903000F085D /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Background@2x.png"; path = "../Retina Images/Background@2x.png"; sourceTree = "<group>"; };
+		62CE24A717A40903000F085D /* Button-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-Highlighted@2x.png"; path = "../Retina Images/Button-Highlighted@2x.png"; sourceTree = "<group>"; };
+		62CE24A817A40903000F085D /* Button-Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-Normal@2x.png"; path = "../Retina Images/Button-Normal@2x.png"; sourceTree = "<group>"; };
+		62CE24A917A40903000F085D /* SliderThumb-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderThumb-Highlighted@2x.png"; path = "../Retina Images/SliderThumb-Highlighted@2x.png"; sourceTree = "<group>"; };
+		62CE24AA17A40903000F085D /* SliderThumb-Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderThumb-Normal@2x.png"; path = "../Retina Images/SliderThumb-Normal@2x.png"; sourceTree = "<group>"; };
+		62CE24AB17A40903000F085D /* SliderTrackLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderTrackLeft@2x.png"; path = "../Retina Images/SliderTrackLeft@2x.png"; sourceTree = "<group>"; };
+		62CE24AC17A40903000F085D /* SliderTrackRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderTrackRight@2x.png"; path = "../Retina Images/SliderTrackRight@2x.png"; sourceTree = "<group>"; };
+		62CE24AD17A40903000F085D /* StartOverButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StartOverButton@2x.png"; path = "../Retina Images/StartOverButton@2x.png"; sourceTree = "<group>"; };
+		62CE24AE17A40903000F085D /* StartOverIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StartOverIcon@2x.png"; path = "../Retina Images/StartOverIcon@2x.png"; sourceTree = "<group>"; };
 		62DA110D17971A7C008E32CF /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DA111017971A7C008E32CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62DA111217971A7C008E32CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,14 +100,23 @@
 			isa = PBXGroup;
 			children = (
 				62B4E0FA17A1317E0027D664 /* Background.png */,
+				62CE24A617A40903000F085D /* Background@2x.png */,
 				62B4E0FB17A1317E0027D664 /* Button-Highlighted.png */,
+				62CE24A717A40903000F085D /* Button-Highlighted@2x.png */,
 				62B4E0FC17A1317E0027D664 /* Button-Normal.png */,
+				62CE24A817A40903000F085D /* Button-Normal@2x.png */,
 				62B4E0FD17A1317E0027D664 /* SliderThumb-Highlighted.png */,
+				62CE24A917A40903000F085D /* SliderThumb-Highlighted@2x.png */,
 				62B4E0FE17A1317E0027D664 /* SliderThumb-Normal.png */,
+				62CE24AA17A40903000F085D /* SliderThumb-Normal@2x.png */,
 				62B4E0FF17A1317E0027D664 /* SliderTrackLeft.png */,
+				62CE24AB17A40903000F085D /* SliderTrackLeft@2x.png */,
 				62B4E10017A1317E0027D664 /* SliderTrackRight.png */,
+				62CE24AC17A40903000F085D /* SliderTrackRight@2x.png */,
 				62B4E10117A1317E0027D664 /* StartOverButton.png */,
+				62CE24AD17A40903000F085D /* StartOverButton@2x.png */,
 				62B4E10217A1317E0027D664 /* StartOverIcon.png */,
+				62CE24AE17A40903000F085D /* StartOverIcon@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -124,16 +151,16 @@
 		62DA111617971A7C008E32CF /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
-				62CE24A317A40558000F085D /* BullsEye.html */,
 				62B4E0F417A121D80027D664 /* AboutViewController.h */,
-				62DA111F17971A7C008E32CF /* AppDelegate.h */,
-				62DA112817971A7C008E32CF /* ViewController.h */,
 				62B4E0F517A121D80027D664 /* AboutViewController.m */,
-				62DA112017971A7C008E32CF /* AppDelegate.m */,
-				62DA112917971A7C008E32CF /* ViewController.m */,
 				62B4E0F617A121D80027D664 /* AboutViewController.xib */,
+				62DA111F17971A7C008E32CF /* AppDelegate.h */,
+				62DA112017971A7C008E32CF /* AppDelegate.m */,
+				62CE24A317A40558000F085D /* BullsEye.html */,
 				62B4E0F917A1317E0027D664 /* Images */,
 				62DA111717971A7C008E32CF /* Supporting Files */,
+				62DA112817971A7C008E32CF /* ViewController.h */,
+				62DA112917971A7C008E32CF /* ViewController.m */,
 				62DA112B17971A7C008E32CF /* ViewController.xib */,
 			);
 			path = BullsEye;
@@ -220,6 +247,15 @@
 				62B4E10A17A1317E0027D664 /* StartOverButton.png in Resources */,
 				62B4E10B17A1317E0027D664 /* StartOverIcon.png in Resources */,
 				62CE24A417A40558000F085D /* BullsEye.html in Resources */,
+				62CE24AF17A40903000F085D /* Background@2x.png in Resources */,
+				62CE24B017A40903000F085D /* Button-Highlighted@2x.png in Resources */,
+				62CE24B117A40903000F085D /* Button-Normal@2x.png in Resources */,
+				62CE24B217A40903000F085D /* SliderThumb-Highlighted@2x.png in Resources */,
+				62CE24B317A40903000F085D /* SliderThumb-Normal@2x.png in Resources */,
+				62CE24B417A40903000F085D /* SliderTrackLeft@2x.png in Resources */,
+				62CE24B517A40903000F085D /* SliderTrackRight@2x.png in Resources */,
+				62CE24B617A40903000F085D /* StartOverButton@2x.png in Resources */,
+				62CE24B717A40903000F085D /* StartOverIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
