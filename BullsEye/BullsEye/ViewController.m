@@ -33,6 +33,25 @@ int currentValue, targetValue, score, roundNumber;
     currentValue = lroundf([self.slider value]);
     */
     
+    // code for slider GUI
+    // normal thumb
+    UIImage *thumbImageNormal = [UIImage imageNamed:@"SliderThumb-Normal"];
+    [self.slider setThumbImage: thumbImageNormal forState: UIControlStateNormal];
+    
+    // highlighted thumb
+    UIImage *thumbImageHighlighted = [UIImage imageNamed:@"SliderThumb-Highlighted"];
+    [self.slider setThumbImage: thumbImageHighlighted forState: UIControlStateHighlighted];
+    
+    // green image for the left track
+    UIImage *trackLeftImage = [[UIImage imageNamed:@"SliderTrackLeft"] stretchableImageWithLeftCapWidth: 14 topCapHeight: 0];
+    [self.slider setMinimumTrackImage: trackLeftImage forState: UIControlStateNormal];
+    
+    // grey image for the right track
+    UIImage *trackRightImage = [[UIImage imageNamed:@"SliderTrackRight"] stretchableImageWithLeftCapWidth: 14 topCapHeight: 0];
+    [self.slider setMaximumTrackImage: trackRightImage forState: UIControlStateNormal];
+    
+    
+    
     [self startNewGame];
     [self updateLabels];
 }
