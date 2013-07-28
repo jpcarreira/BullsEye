@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AboutViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController ()
 
@@ -151,8 +152,16 @@ int currentValue, targetValue, score, roundNumber;
 // starting over
 -(IBAction) startOver
 {
+    // adding a crossfacade transition
+    CATransition *transition = [CATransition animation];
+    transition.type = kCATransitionFade;
+    transition.duration = 1;
+    transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
+    
     [self startNewGame];
     [self updateLabels];
+
+    [self.view.layer addAnimation:transition forKey:nil];
 }
 
 -(void) startNewGame

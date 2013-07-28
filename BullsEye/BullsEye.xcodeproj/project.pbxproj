@@ -28,6 +28,7 @@
 		62CE24B517A40903000F085D /* SliderTrackRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24AC17A40903000F085D /* SliderTrackRight@2x.png */; };
 		62CE24B617A40903000F085D /* StartOverButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24AD17A40903000F085D /* StartOverButton@2x.png */; };
 		62CE24B717A40903000F085D /* StartOverIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CE24AE17A40903000F085D /* StartOverIcon@2x.png */; };
+		62D3C76B17A5D8620040B5C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D3C76A17A5D8620040B5C0 /* QuartzCore.framework */; };
 		62DA111117971A7C008E32CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111017971A7C008E32CF /* UIKit.framework */; };
 		62DA111317971A7C008E32CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111217971A7C008E32CF /* Foundation.framework */; };
 		62DA111517971A7C008E32CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA111417971A7C008E32CF /* CoreGraphics.framework */; };
@@ -64,6 +65,7 @@
 		62CE24AC17A40903000F085D /* SliderTrackRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderTrackRight@2x.png"; path = "../Retina Images/SliderTrackRight@2x.png"; sourceTree = "<group>"; };
 		62CE24AD17A40903000F085D /* StartOverButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StartOverButton@2x.png"; path = "../Retina Images/StartOverButton@2x.png"; sourceTree = "<group>"; };
 		62CE24AE17A40903000F085D /* StartOverIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StartOverIcon@2x.png"; path = "../Retina Images/StartOverIcon@2x.png"; sourceTree = "<group>"; };
+		62D3C76A17A5D8620040B5C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		62DA110D17971A7C008E32CF /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DA111017971A7C008E32CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62DA111217971A7C008E32CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D3C76B17A5D8620040B5C0 /* QuartzCore.framework in Frameworks */,
 				62DA111117971A7C008E32CF /* UIKit.framework in Frameworks */,
 				62DA111317971A7C008E32CF /* Foundation.framework in Frameworks */,
 				62DA111517971A7C008E32CF /* CoreGraphics.framework in Frameworks */,
@@ -141,6 +144,7 @@
 		62DA110F17971A7C008E32CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62D3C76A17A5D8620040B5C0 /* QuartzCore.framework */,
 				62DA111017971A7C008E32CF /* UIKit.framework */,
 				62DA111217971A7C008E32CF /* Foundation.framework */,
 				62DA111417971A7C008E32CF /* CoreGraphics.framework */,
