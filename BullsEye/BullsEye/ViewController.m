@@ -34,6 +34,7 @@ int currentValue, targetValue, score, roundNumber;
     currentValue = lroundf([self.slider value]);
     */
     
+    
     // code for slider GUI
     // normal thumb
     UIImage *thumbImageNormal = [UIImage imageNamed:@"SliderThumb-Normal"];

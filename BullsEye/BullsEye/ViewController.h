@@ -34,4 +34,7 @@
 // go to info screen
 -(IBAction) showInfo;
 
+-(void) saveData;
+-(void) loadData;
+
 @end
