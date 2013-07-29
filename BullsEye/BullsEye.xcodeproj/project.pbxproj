@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		627CD69217A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.32 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 627CD69017A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.32 AM.png */; };
+		627CD69317A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.37 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 627CD69117A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.37 AM.png */; };
 		62B4E0F717A121D80027D664 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B4E0F517A121D80027D664 /* AboutViewController.m */; };
 		62B4E0F817A121D80027D664 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B4E0F617A121D80027D664 /* AboutViewController.xib */; };
 		62B4E10317A1317E0027D664 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B4E0FA17A1317E0027D664 /* Background.png */; };
@@ -54,6 +56,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		627CD69017A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.32 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot Jul 29, 2013 1.01.32 AM.png"; sourceTree = "<group>"; };
+		627CD69117A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.37 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot Jul 29, 2013 1.01.37 AM.png"; sourceTree = "<group>"; };
 		62B4E0F417A121D80027D664 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		62B4E0F517A121D80027D664 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		62B4E0F617A121D80027D664 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
@@ -121,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		627CD68F17A5E9C400BA7D06 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				627CD69017A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.32 AM.png */,
+				627CD69117A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.37 AM.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		62B4E0F917A1317E0027D664 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +215,7 @@
 		62DA111617971A7C008E32CF /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				627CD68F17A5E9C400BA7D06 /* Screenshots */,
 				62D3C78417A5DC770040B5C0 /* Icon */,
 				62D3C77F17A5DC360040B5C0 /* Launch Images */,
 				62B4E0F417A121D80027D664 /* AboutViewController.h */,
@@ -320,6 +334,8 @@
 				62D3C79417A5DC770040B5C0 /* Icon.png in Resources */,
 				62D3C79517A5DC770040B5C0 /* Icon@2x.png in Resources */,
 				62D3C79617A5DC770040B5C0 /* iTunesArtwork in Resources */,
+				627CD69217A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.32 AM.png in Resources */,
+				627CD69317A5E9C400BA7D06 /* iOS Simulator Screen shot Jul 29, 2013 1.01.37 AM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
